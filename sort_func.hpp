@@ -11,12 +11,8 @@
 #include <stdio.h>
 #include <string>
 
-
-
- void sort_lib();
+void sort_lib();
 
 void sort_lib_year();
-
-
 
 #endif /* sort_func_hpp */

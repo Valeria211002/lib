@@ -17,7 +17,7 @@ ofstream inputFile;
 void open_lib_file()
 {
     cout << "Открываем файл: библиотека" << endl;
-    
+
     inputFile.open("/Users/leruni/Desktop/library.txt");
 }
 
@@ -29,11 +29,13 @@ void fill_lib_file()
 void close_lib_file()
 {
     cout << "Закрываем файл" << endl;
-    
+
     inputFile.close();
-    
+
 }
 
+//название функции не отвечает тому, что она делает
+//из того, что написано функция должна называться print_programm_aim
 void file_answer()
 {
     cout << "Цель: поиск фамилии в файле и вывод его" << endl;

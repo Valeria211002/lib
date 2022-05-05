@@ -8,6 +8,7 @@
 #ifndef search_func_hpp
 #define search_func_hpp
 
+//для чего здесь подулючение стандартных бибилиотек?
 #include <stdio.h>
 #include <fstream>
 #include <iostream>
@@ -19,8 +20,5 @@ using namespace std;
 void search_name();
 
 void search_year();
-
-
-
 
 #endif /* search_func_hpp */
