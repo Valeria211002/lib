@@ -8,9 +8,9 @@
 #ifndef work_with_file_hpp
 #define work_with_file_hpp
 
-#include <stdio.h>
-#include <fstream>
-#include <iostream>
+
+
+#include <string>
 
 using namespace std;
 
@@ -27,6 +27,6 @@ void fill_lib_file();
 
 void close_lib_file();
 
-void file_answer();
+void print_programm_aim();
 
 #endif /* work_with_file_hpp */
